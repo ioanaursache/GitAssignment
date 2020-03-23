@@ -11,7 +11,6 @@ public abstract class MetodaCalculSalariu implements ExceptionListener {
 		{
 			throw new Exception("Angajatul " + angajat.getNumeAngajat()+ "este in concediu.");
 		}
-			
 		
 		salariul= salariul + (angajat.getPlataOra())  * (angajat.getOreLucrate()) ;
 	
